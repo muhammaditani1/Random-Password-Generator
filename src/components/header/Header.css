@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: auto !important;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.logo-container {
+  width: auto;
+}
+.logo-container img {
+  width: auto;
+  height: 100px;
+}
+
+.title-container {
+  width: auto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+}

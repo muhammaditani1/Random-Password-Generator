@@ -1,0 +1,47 @@
+.generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px auto;
+  width: fit-content;
+}
+.output-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.output-container output {
+  border: 1px solid rgb(204, 190, 190);
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+}
+.output-container button {
+  border: 1px solid rgb(204, 190, 190);
+  margin-left: 10px; /*creates a space between the button and output*/
+  width: 50px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+.button-container button {
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.button-container button:not(:last-child) {
+  margin-right: 3px;
+}
+.Capital {
+  text-transform: uppercase;
+}
+.LowerCase {
+  text-transform: lowercase;
+}
+.active {
+  background-color: rgb(47, 47, 114);
+}
