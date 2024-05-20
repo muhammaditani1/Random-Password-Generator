@@ -43,9 +43,6 @@ export default function Generate() {
       default:
         characters = upperCase;
     }
-
-    console.log("Characters used for generation:", characters);
-
     let result = "";
     const length = characters.length;
     for (let i = 0; i < 8; i++) {
@@ -53,13 +50,12 @@ export default function Generate() {
     }
 
     setPassword(result);
-    console.log("Generated password:", result);
   }
 
   return (
     <div className="generator-container">
       <div className="output-container">
-        <div className="password-display">{password}</div>
+        <div >{password}</div>
         <CopyToClipboard text={password} onCopy={onCopyText}>
           <button>
             <FontAwesomeIcon icon={faCopy} size="2x" />
